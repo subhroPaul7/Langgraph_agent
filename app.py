@@ -46,7 +46,7 @@ if st.button("Run Workflow"):
                 st.subheader("Workflow Output:")
                 with st.expander("JSON output:"):
                     st.json(result)
-                for i in len(result['serper_response']):
+                for i in range(len(result['serper_response'])):
                     with st.expander("Google search results"):
                         # Splitting the string by the separator `---`
                         entries = result['serper_response'][i].content.split('---')
