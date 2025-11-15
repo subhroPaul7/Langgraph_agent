@@ -4,7 +4,7 @@ from agent_graph.graph_module import create_graph, compile_workflow
 import json
 
 server = 'groq'
-models = ['llama-3.3-70b-versatile', 'llama3-70b-8192', 'llama3-8b-8192', 'gemma2-9b-it', 'mixtral-8x7b-32768', 'llama-3.2-3b-preview']
+models = ['llama-3.3-70b-versatile', 'openai/gpt-oss-120b', 'qwen/qwen3-32b']
 # model = 'llama-3.3-70b-versatile'
 endpoint= None
 
